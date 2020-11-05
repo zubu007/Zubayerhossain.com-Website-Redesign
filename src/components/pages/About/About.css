@@ -1,0 +1,135 @@
+.banner-about {
+    width: 100%;
+    height: 1100px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section-about {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 1000px;
+    width: 100%;
+    z-index: 1;
+}
+
+.about-text {
+    font-size: 120px;
+    color: #f00946;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.hi-text {
+    font-size: 120px;
+    color: #f00946;
+    margin-left: -10px;
+}
+
+.picture-and-text {
+    display: flex;
+    height: 85%;
+}
+
+.picture {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture-file {
+    width: 550px;
+}
+
+.button{
+    background-color: #f00946;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.button h1{
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+.para {
+    color: white;
+    line-height: 30px;
+}
+.text {
+    width: 60%;
+    height: 100%;
+    padding: 50px;
+}
+
+
+.banner-skill{
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-section-skill {
+    margin-right: 50px;
+    width: 70%;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hero-section-skill h1 {
+    text-align: right;
+}
+
+.skill-list-div {
+    height: 650px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-list {
+    color: white;
+    padding: 50px;
+}
+
+.skill-list ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.skill-head {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.banner-edu {
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero-section-edu {
+    margin: 50px;
+    width: 70%;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+

@@ -1,0 +1,105 @@
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 100%; 
+    color: white;
+    background-color: black;
+    z-index: 0;
+    margin-top: 50px;
+}
+
+.back-img{
+    margin-top: 50px;
+    position: absolute;
+    height: 600px;
+    width: 600px;
+}
+
+.hero_text{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.top_line {
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.main_name {
+    color: #f00946;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.des {
+    margin-top: 5px;
+    text-align: right;
+    font-size: 31px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.type{
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.social{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    height: 195px;
+    width: 50px;
+    
+}
+
+.icon{
+    display: flex;    
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.icon-twitter:hover {
+    color: #55A9E0;
+    
+}
+
+.icon-linkedin:hover {
+    color: #0072AE;
+    
+}
+.icon-github:hover {
+    color: #796c6c;
+    
+}
+
+.copyright {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .top_line {
+        font-size: 20px;
+    }
+    
+    .main_name {
+        color: #f00946;
+        font-size: 80px;
+    }
+    
+    .des {
+        margin-top: 5px;
+        text-align: right;
+        font-size: 25px;
+    }
+}
