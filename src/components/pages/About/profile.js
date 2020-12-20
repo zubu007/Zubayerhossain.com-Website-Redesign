@@ -4,8 +4,21 @@ import Picture from '../../../images/about_picture.jpg'
 
 
 function profile() {
+    document.addEventListener('scroll', parallax)
+    function parallax(e) {
+        this.querySelectorAll('.floater').forEach(
+            Layer => {
+                let y = (window.pageYOffset)/3
+                Layer.style.transform = `translateY(${y}px)`
+            }
+        )
+    }
     return (
         <div>
+            <h1 className="floater" style={{left: -200, top: 150}}>About</h1>
+            <h1 className="floater" style={{right: -150, top: 850}}>Skills</h1>
+            <h1 className="floater" style={{right: -150, top: 1550}}>Educa</h1>
+            <h1 className="floater" style={{left: -200, top: 1800}}>cation</h1>
             <div className="banner-about">
                 <div className="hero-section-about">
                     <h1 className="about-text">About</h1>

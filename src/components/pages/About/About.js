@@ -10,7 +10,7 @@ import Profile from './profile'
 
 function Home() {
     return (
-        <div>
+        <div className="about">
             <Profile />
             <Skill />
             <Education />  

@@ -59,9 +59,15 @@ function Home() {
                 </div>
             </div>
             <div className="social">
-                <FaTwitter className="icon icon-twitter"/>
-                <FaLinkedin className="icon icon-linkedin"/>
-                <FaGithub className="icon icon-github"/>
+                <a href="https://twitter.com/Zubayer64629386">
+                    <FaTwitter className="icon icon-twitter"/>
+                </a>
+                <a href="https://www.linkedin.com/in/zubayer-hossain-8a5836190/">
+                    <FaLinkedin className="icon icon-linkedin"/>
+                </a>
+                <a href="https://github.com/zubu007">
+                    <FaGithub className="icon icon-github"/>
+                </a>
             </div>
             <div className="copyright">
                 <p>c. 2020 Zubayer Hossain. All Rights Reserved</p>      

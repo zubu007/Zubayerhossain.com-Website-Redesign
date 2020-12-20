@@ -1,16 +1,27 @@
+.about{
+    background-color: black;
+}
+
+.floater {
+    position: absolute;
+    color: #0C0C0C;
+    font-size: 400px;
+    
+}
+
 .banner-about {
     width: 100%;
-    height: 1100px;
-    z-index: 0;
+    z-index: 1;
     display: flex;
     justify-content: center;
+    background-color: rgb(0, 0, 0);
 }
 
 .hero-section-about {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 1000px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100vh;
     width: 100%;
     z-index: 1;
 }
@@ -18,8 +29,7 @@
 .about-text {
     font-size: 120px;
     color: #f00946;
-    padding-left: 50px;
-    padding-top: 50px;
+    
 }
 
 .hi-text {
@@ -30,12 +40,12 @@
 
 .picture-and-text {
     display: flex;
+    justify-content: space-between;
     height: 85%;
 }
 
 .picture {
-    width: 40%;
-    height: 100%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,23 +80,26 @@
     padding: 50px;
 }
 
+/* Technology Part starts */
 
 .banner-skill{
     width: 100%;
-    height: 700px;
-    z-index: 0;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .hero-section-skill {
-    margin-right: 50px;
+    margin-right: 100px;
     width: 70%;
     z-index: 1;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .hero-section-skill h1 {
@@ -94,8 +107,8 @@
 }
 
 .skill-list-div {
-    height: 650px;
-    width: 1000px;
+    height: 500px;
+    width: 75%;
     display: flex;
     justify-content: space-between;
 }
@@ -115,21 +128,24 @@
     font-size: 30px;
 }
 
+/* Education Part Starts */
+
 .banner-edu {
     width: 100%;
-    height: 500px;
+    height: 120vh;
     z-index: 0;
     display: flex;
     justify-content: flex-start;
+    background-color: rgb(0, 0, 0);
 }
 
 .hero-section-edu {
-    margin: 50px;
-    width: 70%;
+    margin-left: 100px;
     z-index: 1;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
+
 }
 

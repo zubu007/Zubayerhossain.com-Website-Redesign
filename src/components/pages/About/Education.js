@@ -16,6 +16,7 @@ function Education() {
                                 <li>2017-2021</li>
                                 
                             </ul>
+                            
                         </div>
                         
                     </div>
